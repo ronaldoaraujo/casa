@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Controle de Lâmpadas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="css/switch.css" />
+    <link rel="stylesheet" media="screen" href="css/casa.css" />
+  </head>
+  <body>
+    <div class="row">
+      <label class="form-label">Quarto RO</label>
+      <label class="switch">
+        <input id="O" type="checkbox" onclick="Lampada.switch('O')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Quarto Stella</label>
+      <label class="switch">
+        <input id="Q" type="checkbox" onclick="Lampada.switch('Q')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Quarto Eric</label>
+      <label class="switch">
+        <input id="M" type="checkbox" onclick="Lampada.switch('M')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Sala</label>
+      <label class="switch">
+        <input id="J" type="checkbox" onclick="Lampada.switch('J')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Cozinha</label>
+      <label class="switch">
+        <input id="L" type="checkbox" onclick="Lampada.switch('L')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Varanda</label>
+      <label class="switch">
+        <input id="D" type="checkbox" onclick="Lampada.switch('D')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="row">
+      <label class="form-label">Banheiro</label>
+      <label class="switch">
+        <input id="H" type="checkbox" onclick="Lampada.switch('H')">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <script src="js/lampadas.js"></script>
+  </body>
+</html>
